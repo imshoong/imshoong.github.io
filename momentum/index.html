@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+	<form id="login-form" class="hidden">
+		<input type="text" maxlength="15" required placeholder="What is your name?" />
+		<input type="submit" value="login" />
+	</form>
+	<h1 id="greeting" class="hidden"></h1>
+
+	<div id="clock">
+		<strong></strong>
+	</div>
+
+	<div class="weatherContainer">
+		<span class="city"></span>
+		<span class="weather"></span>
+	</div>
+
+	<div class="todoList">
+		<strong>To Do List</strong>
+		<form id="todo-form">
+			<input type="text" required placeholder="Write a To Do and Press Enter" />
+		</form>
+		<ul id="todoList"></ul>
+	</div>
+
+	<script src="js/clock.js"></script>
+	<script src="js/background.js"></script>
+	<script src="js/greeting.js"></script>
+	<script src="js/todoList.js"></script>
+	<script src="js/weather.js"></script>
+</body>
+
+</html>
